@@ -1,7 +1,11 @@
-a= int(input("Enter first number here : "))
-b= int(input("Enter second number here : "))
-c= int(input("Enter third number here ; "))
+x= int(input("Enter first number here : "))
+y= int(input("Enter second number here : "))
+z= int(input("Enter third number here ; "))
  
-print (str(c)+ " is the first number")
-print (str(a)+ " is the second number")
-print (str(b)+ " is the third number")
+temp=x
+x=y
+y=temp 
+y=z 
+z=temp 
+
+print(x ,",",y,",",z)
